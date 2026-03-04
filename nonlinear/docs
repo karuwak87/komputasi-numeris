@@ -1,1 +1,30 @@
+└─$ python3 bisection\ method.py                                                                                                                                                 126 ⨯
+Akar perkiraan untuk fungsi tersebut pada interval [0, 1] adalah: 0.34731
+Nilai f(x) pada akar tersebut adalah: -0.0000236
+                                                                                                                                                                                       
+┌──(karuwak㉿wh1t3h4t)-[~/…/Komputasi numeris/Tugas /tugas1/Nonlinear_Equations]
+└─$ python3 newton_raphson.py   
+Nilai awal: x = 4
+--------------------------------------------------
+Iterasi 1: x = 3.000000 | selisih = 1.000000
+Iterasi 2: x = 2.437500 | selisih = 0.562500
+Iterasi 3: x = 2.213033 | selisih = 0.224467
+Iterasi 4: x = 2.175555 | selisih = 0.037478
+Iterasi 5: x = 2.174560 | selisih = 0.000995
+Iterasi 6: x = 2.174559 | selisih = 0.000001
+--------------------------------------------------
+Berhasil! Kriteria epsilon tercapai pada iterasi ke-6.
+Hasil hampiran akar: 2.174559
+                                                                                                                                                                                       
+┌──(karuwak㉿wh1t3h4t)-[~/…/Komputasi numeris/Tugas /tugas1/Nonlinear_Equations]
+└─$ python3 secant.py        
+Nilai awal: x0 = -1.0, x1 = -1.1
+-------------------------------------------------------
+Iterasi 1: x = -1.106212 | error = 0.006212
+Iterasi 2: x = -1.105291 | error = 0.000921
+-------------------------------------------------------
+Berhasil! Kriteria error < 0.001 tercapai pada iterasi ke-2.
+Hasil hampiran akar: -1.105291
+                                                                                                                                                                                       
+┌──(karuwak㉿wh1t3h4t)-[~/…/Komputasi numeris/Tugas /tugas1/Nonlinear_Equations]
 
