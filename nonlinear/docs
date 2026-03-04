@@ -2,7 +2,7 @@
 Akar perkiraan untuk fungsi tersebut pada interval [0, 1] adalah: 0.34731
 Nilai f(x) pada akar tersebut adalah: -0.0000236
                                                                                                                                                                                        
-┌──(karuwak㉿wh1t3h4t)-[~/…/Komputasi numeris/Tugas /tugas1/Nonlinear_Equations]
+┌──(karuwak㉿wh1t3h4t)
 └─$ python3 newton_raphson.py   
 Nilai awal: x = 4
 --------------------------------------------------
@@ -16,7 +16,7 @@ Iterasi 6: x = 2.174559 | selisih = 0.000001
 Berhasil! Kriteria epsilon tercapai pada iterasi ke-6.
 Hasil hampiran akar: 2.174559
                                                                                                                                                                                        
-┌──(karuwak㉿wh1t3h4t)-[~/…/Komputasi numeris/Tugas /tugas1/Nonlinear_Equations]
+┌──(karuwak㉿wh1t3h4t)
 └─$ python3 secant.py        
 Nilai awal: x0 = -1.0, x1 = -1.1
 -------------------------------------------------------
