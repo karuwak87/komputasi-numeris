@@ -1,1 +1,51 @@
+┌──(karuwak㉿wh1t3h4t)-[~/…/UGM/Komputasi numeris/Tugas /Tugas 4]
+└─$ python3 polinomial.py  
+=== PERSAMAAN HASIL REGRESI ===
+a (intercept)    = 2.4786
+b (koefisien x)   = 2.3593
+c (koefisien x^2) = 1.8607
+
+Persamaan polinomial orde 2 adalah:
+y = 2.4786 + 2.3593x + 1.8607x^2
+
+                                                                                                                                                                                       
+┌──(karuwak㉿wh1t3h4t)-[~/…/UGM/Komputasi numeris/Tugas /Tugas 4]
+└─$ python3 linear.py    
+=== HASIL REGRESI LINEAR ===
+a (intercept) = 4.5667
+b (gradien/slope) = 0.6000
+Persamaan garis: y = 4.5667 + 0.6000x
+                                                                                                                                                                                       
+┌──(karuwak㉿wh1t3h4t)-[~/…/UGM/Komputasi numeris/Tugas /Tugas 4]
+└─$ python3 nonlinear.py     
+/home/karuwak/DATA/S2/UGM/Komputasi numeris/Tugas /Tugas 4/nonlinear.py:74: SyntaxWarning: invalid escape sequence '\l'
+  eq_text = f'$f(x) = {a:.3f} \ln(x) - {abs(b):.3f} \cos(x) + {c:.4f} e^x$'
+/home/karuwak/DATA/S2/UGM/Komputasi numeris/Tugas /Tugas 4/nonlinear.py:74: SyntaxWarning: invalid escape sequence '\c'
+  eq_text = f'$f(x) = {a:.3f} \ln(x) - {abs(b):.3f} \cos(x) + {c:.4f} e^x$'
+=== MATRIKS A (Dari Nilai Tabel) ===
+[[  4.55642915  -3.31546966  25.21922208]
+ [ -3.31546966   3.26307022 -14.4814951 ]
+ [ 25.21922208 -14.4814951  352.38813639]]
+
+=== VEKTOR B (Dari Nilai Tabel) ===
+[-0.06248626 -0.84851389 -1.99228344]
+
+=== HASIL PENYELESAIAN ===
+a = -0.88815
+b = -1.10742
+c = 0.012398
+Persamaan: f(x) = -0.88815 ln(x) -1.10742 cos(x) + 0.012398 e^x
+                                                                                                                                                                                       
+┌──(karuwak㉿wh1t3h4t)-[~/…/UGM/Komputasi numeris/Tugas /Tugas 4]
+└─$ python3 Linearization.py 
+Sigma z = 4.68213
+Sigma xz = 10.68602
+
+Hasil penyelesaian matriks:
+alpha = 0.23895
+b = 0.66088
+
+Mengembalikan nilai a:
+a = e^alpha = 1.26992
+Fungsi Final: f(x) = 1.26992 e^(0.66088x)
 
